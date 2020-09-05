@@ -1,0 +1,65 @@
+* {
+  font-family: 'Grandstander', cursive;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #13547a, #80d0c7);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #f9f9f9;
+  text-shadow: 3px 3px 5px black;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 175px;
+  margin: 75px;
+}
+
+#rules {
+  font-size: 50px;
+  margin: 50px;
+}
+
+#footer {
+  position:absolute;
+   bottom:0;
+   width:100%;
+   margin: 10px;
+   color: #f9f9f9;
+}
+
+#userGuess {
+  border-radius: 25px;
+  border-color: black;
+  width: 25%;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  border: none;
+  margin: 30px;
+}
+
+#button {
+  border-radius: 25px;
+  border-color: black;
+  box-shadow: 2px 2px 3px black;
+  padding: 16px 32px;
+  font-size: 35px;
+  background-color: #3f97a5;
+  color: #f9f9f9;
+}

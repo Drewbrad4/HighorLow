@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>High or Low</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" href="./fav/favicon.ico"> -->
+  </head>
+  <body>
+    <div class="main">
+      <h1 id="title">High or Low</h1>
+      <h2 id="rules">Guess a number between 1 and 100</h2>
+    </div>
+    <div class="game">
+      <h3 id="turnCounter">Turns Remaining : <span id="guesses">7</span></p></h3>
+      <form action="/action_page.php">
+      <input type="number" id="userGuess" autocomplete="off" max="100" min ="1" placeholder="Go on . . . Guess" required><br>
+      <input id="button" type="button" onclick="highLow()" value="H or L">
+    </div>
+    <footer id="footer">Made By Drew Bradford<br>
+      <a id="link" href="https://drewbrad4.github.io" target="_blank">Check out my website!<a/>
+    </footer>
+    <script type="text/javascript" src="highLow.js"></script>
+  </body>
+</html>
